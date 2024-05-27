@@ -1,5 +1,4 @@
 # Portfólio digital de Eduardo da Silva Fontes
-## Orientador: Fabrício Galende Marques de Carvalho
 
 <p align="center">
     <img src="mgt/Eu.jpeg" alt="Eduardo Fontes" width=50% ali></img>
@@ -89,5 +88,3 @@
   ```
 
 </details>
-
-Validação FGMC
