@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    font-family: "Metropolis-Bold";
+    color: rgb(20, 20, 20);
+}
+
+.cabecalho {
+    position: static;
+    background-color: rgb(228, 228, 228);
+    margin-top: -1%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    justify-content: space-between;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.cabecalho .menu li a:hover {
+    color: #cb1d0a;
+    transition: 0.5s;
+}
+
+.cabecalho ul,
+li a {
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+}
+
+.contatos .topo {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    gap: 100px;
+}
+
+.contatos .topo .texto-cont {
+    font-family: 'Montserrat';
+    font-size: 19px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.contatos .topo .list-social {
+    margin-top: 10%;
+    margin-right: 3.5%;
+}
+
+.contatos .topo .list-social a {
+    padding: 0 50px;
+}
+
+.contatos .topo .list-social .paragrafo {
+    opacity: 80%;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+
+
+.rodape {
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.rodape .paragrafo a {
+    color: rgb(193, 16, 16);
+}
+
+
+hr {
+    border: 0.5px solid rgb(154, 154, 154);
+}
+
+.curso {
+    color: rgb(193, 16, 16);
+}
+
+@media(max-width:460px) {
+    .cabecalho {
+        height: 100px;
+        margin-left: -10%;
+        padding: 0 50px;
+    }
+
+    .cabecalho .logo img {
+        margin-right: 5%;
+    }
+
+    .cabecalho .menu {
+        gap: 10px;
+    }
+
+    .contatos .topo {
+        margin-left: 0%;
+    }
+
+    .contatos .topo .list-social {
+        margin-right: 10%;
+    }
+
+    .contatos .topo .list-social .paragrafo {
+        margin-left: 7%;
+    }
+}

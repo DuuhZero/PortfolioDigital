@@ -1,0 +1,243 @@
+body {
+  width: 100%;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  font-family: "Metropolis-Bold";
+  color: rgb(20, 20, 20);
+}
+
+.cabecalho {
+  position: static;
+  background-color: rgb(228, 228, 228);
+  margin-top: -1%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  justify-content: space-between;
+}
+
+.cabecalho .menu {
+  display: flex;
+  gap: 20px;
+
+}
+
+.cabecalho .menu li a:hover {
+  color: #cb1d0a;
+  transition: 0.5s;
+}
+
+.cabecalho ul,
+li a {
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(20, 20, 20);
+}
+
+li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(20, 20, 20);
+}
+
+
+.card {
+  left: 20%;
+  top: 50%;
+  position: absolute;
+  border: 0.5px solid rgb(157, 157, 157);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 300px;
+}
+
+.card2 {
+  left: 40%;
+  top: 50%;
+  position: absolute;
+  border: 0.5px solid rgb(157, 157, 157);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 300px;
+}
+
+.card3 {
+  left: 60%;
+  top: 50%;
+  position: absolute;
+  border: 0.5px solid rgb(157, 157, 157);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 300px;
+}
+
+.card4 {
+  left: 40%;
+  top: 94%;
+  position: absolute;
+  border: 0.5px solid rgb(157, 157, 157);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 300px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.projetos .topo {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.projetos .topo .texto-proj {
+  font-family: "Montserrat";
+  font-size: 19px;
+}
+
+.projetos .topo .texto-card {
+  font-family: "Montserrat";
+  margin-top: 9%;
+  opacity: 80%;
+}
+
+.card-body {
+  margin: 15px;
+  margin-top: 2%;
+}
+
+.card-body a {
+  margin: 15px;
+  margin-left: 14%;
+}
+
+.card-text {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  margin-bottom: 9%;
+}
+
+.card-text2 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  margin-bottom: 15.7%;
+}
+
+.card-text3 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  margin-bottom: 9.5%;
+}
+
+.card-text4 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  margin-bottom: 9.5%;
+}
+
+.btn {
+  border: 0.5px solid #000;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: all .3s ease-in;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(193, 16, 16);
+}
+
+.btn:hover {
+  background-color: rgb(193, 16, 16);
+  color: #fff;
+}
+
+
+.rodape {
+  position: relative;
+  margin-top: 50%;
+  text-align: center;
+}
+
+.rodape .paragrafo a {
+  color: rgb(193, 16, 16);
+}
+
+.rodape .social {
+  margin-top: 3%;
+}
+
+
+hr {
+  border: 0.5px solid rgb(154, 154, 154);
+}
+
+.curso {
+  color: rgb(193, 16, 16);
+}
+
+@media(max-width:460px) {
+  .cabecalho {
+    height: 100px;
+    margin-left: -10%;
+    padding: 0 50px;
+  }
+
+  .cabecalho .logo img {
+    margin-right: 5%;
+  }
+
+  .cabecalho .menu {
+    gap: 10px;
+  }
+
+  .projetos .topo {
+    margin-left: 23%;
+  }
+
+  .card {
+    left: 20%;
+    top: 55%;
+  }
+
+  .card2 {
+    left: 20%;
+    top: 100%;
+  }
+
+  .card3 {
+    left: 20%;
+    top: 145%;
+
+  }
+
+  .card4 {
+    left: 20%;
+    top: 190%;
+
+  }
+
+  .rodape .social {
+    margin-right: 10%;
+  }
+
+  .rodape{
+    margin-top: 300%;
+  }
+}

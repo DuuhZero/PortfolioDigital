@@ -1,0 +1,354 @@
+body {
+    width: 100%;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    font-family: "Metropolis-Bold";
+    color: rgb(20, 20, 20);
+}
+
+.cabecalho {
+    position: static;
+    background-color: rgb(228, 228, 228);
+    margin-top: -1%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    justify-content: space-between;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.cabecalho .menu li a:hover {
+    color: #cb1d0a;
+    transition: 0.5s;
+}
+
+.cabecalho ul,
+li a {
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+
+.corpo {
+    display: flex;
+    background: linear-gradient(to bottom, transparent 0%, white);
+}
+
+.corpo .info {
+    display: block;
+    position: absolute;
+    text-align: center;
+    flex-direction: row;
+    top: 30%;
+    left: 24%;
+}
+
+.corpo .info .texto {
+    font-size: 30px;
+    text-align: start;
+}
+
+.corpo .info .texto .edu {
+    color: rgb(193, 16, 16);
+}
+
+.corpo .info a {
+    position: absolute;
+    margin-top: 20%;
+    right: 40%;
+}
+
+.corpo .info .titulo {
+    font-size: 40px;
+}
+
+.corpo .info .botaosobre {
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    text-decoration: none;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.corpo .info a:hover {
+    background-color: #ffffff;
+    color: rgb(193, 16, 16);
+}
+
+.corpo .info .foto img {
+    height: 350px;
+    width: 352px;
+}
+
+.corpo .fundo .imagem-fundo {
+    width: 155.5%;
+    object-fit: cover;
+    display: flex;
+    opacity: 40%;
+}
+
+
+.corpo .fundo .imagem-fundo img {
+    opacity: 80%;
+}
+
+.secao .sobre .container-foto img {
+    position: relative;
+    left: 70%;
+    margin-top: 7%;
+    border-radius: 15%;
+}
+
+.secao .sobre .conteiner-sobre {
+    display: block;
+    text-align: center;
+    margin-right: 43%;
+    margin-top: -31%;
+    margin-left: 6%;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.secao .sobre .conteiner-sobre .paragrafo {
+    font-size: 17px;
+    line-height: 2.0;
+}
+
+
+.secao .quote {
+    padding-left: 45px;
+    font-size: 20px;
+    margin-top: 2%;
+    justify-content: center;
+    opacity: 80%;
+}
+
+.secao .nome {
+    font-family: "Montserrat";
+    padding-left: 20px;
+    margin-left: 75px;
+    margin-bottom: 4%;
+    opacity: 85%;
+}
+
+.secao .habilidades .academico {
+    margin-left: -45%;
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.secao .habilidades .aca-forma {
+    text-align: center;
+    margin-left: 2.5%;
+}
+
+.secao .habilidades .list-aca li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.secao .habilidades .list-aca {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.secao .habilidades .conhecimento {
+    margin-left: 45%;
+    margin-top: -21.4%;
+    font-size: 20px;
+    font-family: "Montserrat";
+
+}
+
+.secao .habilidades .con-forma {
+    text-align: center;
+    margin-left: 5%;
+}
+
+.secao .habilidades .conhecimento .list-con li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    line-height: 2.0;
+    text-align: center
+}
+
+
+.secao .habilidades .interesses {
+    margin-top: 10%;
+    font-size: 17px;
+    font-family: "Montserrat";
+}
+
+.secao .habilidades .interesses .int {
+    text-align: center;
+}
+
+.secao .habilidades .interesses .lis-int {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.secao .habilidades .interresses .lis-int .texto-interesses {
+    font-size: 13px;
+    line-height: 2.0;
+}
+
+.secao .habilidades .interesses .list-hob li {
+    list-style-type: none;
+}
+
+.secao .habilidades .interesses .list-hob {
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+.secao .habilidades .interesses .recomendacoes {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.secao .habilidades .interesses .recomendacoes .list-recomend img {
+    border-radius: 2.5%;
+}
+
+.curso {
+    color: rgb(193, 16, 16);
+}
+
+.rodape {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.rodape .paragrafo a {
+    color: rgb(193, 16, 16);
+}
+
+
+hr {
+    border: 0.5px solid rgb(154, 154, 154);
+}
+
+
+@media (max-width: 460px) {
+    .cabecalho {
+        height: 100px;
+        margin-left: -10%;
+        padding: 0 50px;
+    }
+
+    .cabecalho .logo img {
+        margin-right: 5%;
+    }
+
+    .cabecalho .menu {
+        gap: 10px;
+    }
+
+    .corpo .info {
+        left: 0;
+    }
+
+    .corpo .info .texto {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .corpo .info a {
+        right: 35%;
+    }
+
+    .corpo .fundo .imagem-fundo {
+        max-width: 444px;
+    }
+
+    .secao .sobre .container-foto img {
+        position: relative;
+        left: 10%;
+        margin-top: 14%;
+        border-radius: 15%;
+    }
+
+    .secao .sobre .conteiner-sobre {
+        margin-top: 0%;
+        margin-right: 10%;
+    }
+
+    .secao .quote {
+        padding-left: 0px;
+        text-align: start;
+    }
+
+    .secao .nome {
+        font-family: "Montserrat";
+        padding-left: 20px;
+        margin-left: 25px;
+    }
+
+    .secao .habilidades .academico {
+        margin-left: 0%;
+    }
+    .secao .habilidades .list-aca{
+        margin-left: -10.5%;
+    }
+
+    .secao .habilidades .conhecimento {
+        margin-left: 0%;
+        margin-top: 3%;
+    
+    }
+    
+    .secao .habilidades .con-forma {
+        margin-left: 0%;
+    }
+    
+    .secao .habilidades .conhecimento .list-con{
+        margin-left: -10.5%;
+    }
+
+    .secao .habilidades .interesses .recomendacoes{
+        margin-left: 3%;
+    }
+
+    .secao .habilidades .interesses .recomendacoes .list-recomend{
+        margin-left: -10%;
+    }
+
+    .secao .habilidades .interesses .list-hob {
+        margin-right: 11%;
+    }
+
+    .rodape .social{
+        margin-right: 10%;
+    }
+
+}
